@@ -5,7 +5,7 @@ Advanced SQL analytics project using PostgreSQL to analyze Spotify listening dat
 **Dataset:** [Spotify Dataset (Kaggle)](https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset)
 
 <p align="center">
-  <img src="spotify_logo.jpg" width="220">
+  <img src="Spotify_Full_Logo.jpg" width="220">
 </p>
 ---
 
