@@ -2,9 +2,7 @@
 
 Advanced SQL analytics project using PostgreSQL to analyze Spotify listening data, derive business insights, and optimize query performance through indexing and execution plan analysis.
 
-**Dataset:** https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset
-
-![Spotify Logo](spotify_logo.jpg)
+**Dataset:** [Spotify Dataset (Kaggle)](https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset)
 
 ---
 
