@@ -5,7 +5,7 @@ Advanced SQL analytics project using PostgreSQL to analyze Spotify listening dat
 **Dataset:** [Spotify Dataset (Kaggle)](https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset)
 
 <p align="center">
-  <img src="Spotify_Full_Logo.png" width="220">
+  <img src="Spotify_Full_Logo.png" width="400">
 </p>
 ---
 
@@ -53,7 +53,7 @@ CREATE TABLE spotify (
 ```
 ## Project Steps
 
-### 1. Data Exploration
+### Data Exploration
 Before diving into SQL, it’s important to understand the dataset thoroughly. The dataset contains attributes such as:
 - `Artist`: The performer of the track.
 - `Track`: The name of the song.
@@ -61,7 +61,7 @@ Before diving into SQL, it’s important to understand the dataset thoroughly. T
 - `Album_type`: The type of album (e.g., single or album).
 - Various metrics such as `danceability`, `energy`, `loudness`, `tempo`, and more.
 
-### 4. Querying the Data
+### Querying the Data
 After the data is inserted, various SQL queries can be written to explore and analyze the data. Queries are categorized into **easy**, **medium**, and **advanced** levels to help progressively develop SQL proficiency.
 
 #### Easy Queries
@@ -73,7 +73,7 @@ After the data is inserted, various SQL queries can be written to explore and an
 #### Advanced Queries
 - Nested subqueries, window functions, CTEs, and performance optimization.
 
-### 5. Query Optimization
+### Query Optimization
 In advanced stages, the focus shifts to improving query performance. Some optimization strategies include:
 - **Indexing**: Adding indexes on frequently queried columns.
 - **Query Execution Plan**: Using `EXPLAIN ANALYZE` to review and refine query performance.
@@ -293,24 +293,8 @@ The visualizations below compare execution and planning times before and after i
 
 - PostgreSQL
 - SQL (DDL, DML, Joins, Aggregations, CTEs, Window Functions)
+- Query Optimization
 - pgAdmin 4
-- EXPLAIN ANALYZE
-
----
-
-# Repository Structure
-
-```
-Spotify-Advanced-SQL-Project/
-│
-├── README.md
-├── spotify_logo.jpg
-├── spotify_explain_before_index.png
-├── spotify_explain_after_index.png
-├── spotify_graphical view 1.png
-├── spotify_graphical view 2.png
-└── spotify_graphical view 3.png
-```
 
 ---
 
@@ -327,7 +311,8 @@ Spotify-Advanced-SQL-Project/
 # Future Improvements
 
 - Build interactive Power BI dashboards from the query outputs.
-- Extend the dataset to evaluate performance at larger scales.
+- Develop interactive Power BI dashboards from query outputs.
+- Explore additional indexing and optimization techniques.
 - Explore additional query optimization techniques and indexing strategies.
 
 ---
